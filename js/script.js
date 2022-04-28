@@ -70,7 +70,7 @@ function moveLaser(laser) {
 
         aliens.forEach((alien) => {
             if (checkLaserCollision(laser, alien)) {
-                alien.src = 'img/explosion.png';
+                alien.src = '../img/explosion.png';
                 alien.classList.remove('alien');
                 alien.classList.add('dead-alien');
             }
@@ -140,7 +140,7 @@ function playGame() {
     window.addEventListener('keydown', flyShip);
     alienInterval = setInterval(() => {
         createAliens();
-    }, 2000);
+    }, 5000);
 }
 
 function gameOver() {

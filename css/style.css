@@ -65,3 +65,7 @@ body {
     width: 70px;
     opacity: 0;
 }
+#placar h2{
+    font-size: 20px;
+    color: #fff;
+}
